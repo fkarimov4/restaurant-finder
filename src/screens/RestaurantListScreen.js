@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Text, View, ScrollView, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import RestaurantCard from "../components/RestaurantCard";
+import styles from "../../styles";
 
 export default function RestaurantListScreen() {
   const navigation = useNavigation();
@@ -20,13 +21,7 @@ export default function RestaurantListScreen() {
     <View>
       <TouchableOpacity
         onPress={handleAddNew}
-        style={{
-          backgroundColor: "#FFC300",
-          padding: 8,
-          marginVertical: 10,
-          marginHorizontal: 20,
-          borderRadius: 8
-        }}
+        style={styles.customBtn}
       >
         <Text style={{ fontSize: 20, textAlign: "center", fontWeight: "700" }}>
           Add New Restaurant
