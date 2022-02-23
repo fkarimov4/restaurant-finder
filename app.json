@@ -3,12 +3,11 @@
     "name": "restaurant-finder",
     "slug": "restaurant-finder",
     "version": "1.0.0",
-    "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/boca-code.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#fe216d"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
